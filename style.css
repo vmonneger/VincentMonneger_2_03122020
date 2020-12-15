@@ -1,0 +1,45 @@
+#conteneur {
+    padding: 15px 15px;
+}
+
+/* LE TOP PAGE */
+.top_page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: auto;
+    width: 80px;
+}
+
+.nav_bar {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.les_ancres {
+    display: flex;
+    align-content: center;
+    list-style: none;
+}
+
+li {
+    padding: 0 20px;
+}
+
+
+/* LA RECHERCHE */
+.la_recherche {
+
+}
+
+.les_filtres {
+
+}
+
+.description_top {
+
+}
