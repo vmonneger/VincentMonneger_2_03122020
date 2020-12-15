@@ -1,5 +1,5 @@
 #conteneur {
-    padding: 15px 15px;
+    padding: 25px 25px;
 }
 
 /* LE TOP PAGE */
@@ -68,8 +68,6 @@
 .hebergement_ville {
     display: flex;
     flex-direction: column;
-    max-width: 70%;
-    max-height: auto;
 }
 
 .hebergement_titre {
@@ -81,14 +79,15 @@
     display: flex;
     flex-wrap: wrap;
     list-style: none;
-    align-items: flex-start;
+    justify-content: flex-start;
 }
 
 .photo1 {
-    width: 100px;
-    height: 100px;
+    padding: 10px 10px;
 }
 
 img {
-    width: 100%;
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
 }
