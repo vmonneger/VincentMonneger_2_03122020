@@ -7,21 +7,21 @@
     </head>
 
     <body>
-        <header>
-            <div id="conteneur">
+        <div id="conteneur">
+            <header>
                 <div class="top_page">
                     <div class="logo_header">
                         <img src="/images/logo/Reservia@3x.png" alt="logo_reservia" class="logo">
                     </div>
                     <nav class="nav_bar">
                         <ul class="les_ancres">
-                            <li>
-                                <a id=#hebergements>Hébergements</a>
+                            <li class="ancre">
+                                <a href="#hebergements">Hébergements</a>
                             </li>
-                            <li>
-                                <a id=#activites>Activités</a>
+                            <li class="ancre">
+                                <a href="#activites">Activités</a>
                             </li>
-                            <li>
+                            <li class="ancre">
                                 <a>S'incsrire</a>
                             </li>
                         </ul>
@@ -42,16 +42,16 @@
                         <h2>Filtres</h2>
                     </div>  
                     <ul class="filtres_button">
-                        <li>
+                        <li class="button_filtre">
                             <button class="eco_button">Économique</button>
                         </li>
-                        <li>
+                        <li class="button_filtre">
                             <button class="fam_button">Familial</button>
                         </li>
-                        <li>
+                        <li class="button_filtre">
                             <button class="roman_button">Romantique</button>
                         </li>
-                        <li>
+                        <li class="button_filtre">
                             <button class="anima_button">Animaux autorisés</button>
                         </li>
                     </ul>
@@ -59,8 +59,66 @@
                 <div class="description_top">
                     <p>Plus de 500 logements sont disponibles dans cette ville</p>
                 </div>
-            </div>
-        </header>
-    
+            </header>
+
+            <section class="hebergements">
+                <div class="hebergement_ville">
+                    <div class="hebergement_titre">
+                        <h2 id="hebergements">Hébergements à Marseille</h2>
+                    </div>
+                    <ul class="hebergement_photo">
+                        <li class="photo1">
+                            <a href="">
+                                <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="photo_herbergement">
+                            </a>
+                        </li>
+                        <li class="photo1">
+                            <a href="">
+                                <img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="photo_herbergement">
+                            </a>
+                        </li>
+                        <li class="photo1">
+                            <a href="">
+                                <img src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="photo_herbergement">
+                            </a>
+                        </li>
+                        <li class="photo1">
+                            <a href="">
+                                <img src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="photo_herbergement">
+                            </a>
+                        </li>
+                        <li class="photo1">
+                            <a href="">
+                                <img src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="photo_herbergement">
+                            </a>
+                        </li>
+                        <li class="photo1">
+                            <a href="">
+                                <img src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="photo_herbergement">
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="plus_hebergement">
+                        <h2>Afficher plus</h2>
+                    </div>
+                </div>
+                <aside class="populaires">
+                    <div class="titre_populaire">
+                        <h2>Les plus populaires</h2>
+                    </div>
+                    <div class="photo_populaire">
+                        <a href="">
+                            <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="photo_populaire">
+                        </a>
+                        <a href="">
+                            <img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="photo_populaire">
+                        </a>
+                        <a href="">
+                            <img src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="photo_populaire">
+                        </a>
+                    </div>
+                </aside>
+            </section>
+        </div>
     </body>
 </html>

@@ -26,7 +26,7 @@
     list-style: none;
 }
 
-li {
+.ancre {
     padding: 0 20px;
 }
 
@@ -47,12 +47,48 @@ li {
 .filtres_button {
     display: flex;
     list-style: none;
+    flex-wrap: wrap;
 }
 
-button {
-
+.button_filtre {
+    padding: 0 20px;
 }
 
 .description_top {
 
+}
+
+/* LES HEBERGEMENT */
+
+.hebergements {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hebergement_ville {
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+    max-height: auto;
+}
+
+.hebergement_titre {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.hebergement_photo {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    align-items: flex-start;
+}
+
+.photo1 {
+    width: 100px;
+    height: 100px;
+}
+
+img {
+    width: 100%;
 }
