@@ -33,10 +33,23 @@ li {
 
 /* LA RECHERCHE */
 .la_recherche {
-
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 30px;
 }
 
 .les_filtres {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.filtres_button {
+    display: flex;
+    list-style: none;
+}
+
+button {
 
 }
 
