@@ -1,5 +1,13 @@
 #conteneur {
-    padding: 25px 25px;
+    padding: 25px 50px;
+}
+
+h1, h2 {
+    font-family: 'Raleway', sans-serif;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
 }
 
 /* LE TOP PAGE */
@@ -68,11 +76,15 @@
 .hebergement_ville {
     display: flex;
     flex-direction: column;
+    background-color: #F2F2F2;
+    border-radius: 15px;
+    margin-right: 70px;
 }
 
 .hebergement_titre {
     display: flex;
     justify-content: flex-start;
+    padding-left: 50px;
 }
 
 .hebergement_photo {
@@ -84,10 +96,75 @@
 
 .photo1 {
     padding: 10px 10px;
+    background-color:  white;
+    border-radius: 30px;
+    /* border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px; */
+    margin: 20px;
 }
 
 img {
-    width: 300px;
-    height: 200px;
+    width: 350px;
+    height: 250px;
     object-fit: cover;
+}
+
+/* LES CARDS PHOTO */
+
+.border_photo {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+a {
+    font-family: 'Raleway', sans-serif;
+}
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline black;
+  }
+
+.desciption_photo {
+
+}
+
+.plus_hebergement {
+    padding-left: 50px;
+}
+
+
+/* LES POPULAIRES */
+.populaires {
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    border-radius: 15px;
+    padding-right: 35px;
+}
+
+.titre_populaire {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 40px;
+}
+
+.photo_populaire {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.photo2 {
+ display: flex;
 }
