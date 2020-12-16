@@ -2,8 +2,13 @@
     padding: 25px 50px;
 }
 
-h1, h2 {
+h1 {
     font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif; 
 }
 
 p {
@@ -19,7 +24,7 @@ p {
 
 .logo {
     height: auto;
-    width: 80px;
+    width: 120px;
 }
 
 .nav_bar {
@@ -40,6 +45,33 @@ p {
 
 
 /* LA RECHERCHE */
+.barre_recherche {
+    display: flex;
+    justify-content: flex-start;
+}
+.fa-map-marker-alt {
+    background-color: #F2F2F2;
+    padding: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+input[type=text] {
+    border: solid 1px #F2F2F2;
+    padding: 10px;
+}
+
+.rechercher_button {
+    background-color: #0065FC;
+    border: none;
+    padding: 10px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
 .la_recherche {
     display: flex;
     flex-direction: column;
@@ -60,6 +92,78 @@ p {
 
 .button_filtre {
     padding: 0 20px;
+    display: flex;
+}
+
+.eco_button {
+    border: solid 2px #F2F2F2;
+    background: none;
+    padding: 15px 15px 15px 60px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    border-radius: 40px;
+}
+
+.fa-money-bill-wave {
+    color:#0065FC;
+    background-color: #DEEBFF;
+    padding: 15px;
+    border-radius: 50%;
+    position: relative;
+    left: 50px;
+}
+
+.fam_button {
+    border: solid 2px #F2F2F2;
+    background: none;
+    padding: 15px 15px 15px 60px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    border-radius: 40px;
+}
+
+.fa-child {
+    color:#0065FC;
+    background-color: #DEEBFF;
+    padding: 15px;
+    border-radius: 50%;
+    position: relative;
+    left: 40px;
+}
+
+.roman_button {
+    border: solid 2px #F2F2F2;
+    background: none;
+    padding: 15px 15px 15px 60px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    border-radius: 40px;
+}
+
+.fa-heart {
+    color:#0065FC;
+    background-color: #DEEBFF;
+    padding: 15px;
+    border-radius: 50%;
+    position: relative;
+    left: 50px;
+}
+.anima_button {
+    border: solid 2px #F2F2F2;
+    background: none;
+    padding: 15px 15px 15px 60px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    border-radius: 40px;
+}
+
+.fa-dog {
+    color:#0065FC;
+    background-color: #DEEBFF;
+    padding: 15px;
+    border-radius: 50%;
+    position: relative;
+    left: 50px;
 }
 
 .description_top {
@@ -84,7 +188,7 @@ p {
 .hebergement_titre {
     display: flex;
     justify-content: flex-start;
-    padding-left: 50px;
+    padding-left: 70px;
 }
 
 .hebergement_photo {
@@ -111,6 +215,10 @@ img {
     object-fit: cover;
 }
 
+.plus_hebergement {
+    padding-left: 70px;
+}
+
 /* LES CARDS PHOTO */
 
 .border_photo {
@@ -134,12 +242,8 @@ a:hover {
     text-decoration: none;
   }
 
-.desciption_photo {
-
-}
-
-.plus_hebergement {
-    padding-left: 50px;
+.description_photo {
+    margin-left: 15px;
 }
 
 
