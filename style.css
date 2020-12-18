@@ -317,6 +317,7 @@ input[type=text]:focus {
     border-radius: 30px;
     margin-bottom: 20px;
     margin-right: 20px;
+    box-shadow: 0 0 10px 0 #cecece;
 }
 
 img.border_photo {
@@ -388,6 +389,7 @@ a:hover {
     background-color:  white;
     border-radius: 30px;
     margin-bottom: 40px;
+    box-shadow: 0 0 10px 0 #cecece;
 
 }
 
