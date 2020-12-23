@@ -12,6 +12,11 @@ h2 {
     font-size: 22px;
 }
 
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+}
+
 p {
     font-family: 'Raleway', sans-serif;
 }
@@ -412,18 +417,22 @@ img.border_photo2 {
 }
 
 /* LES ACTIVITES */
+.titre_activite {
+    margin-top: 60px;
+}
 
 .activite {
     display: flex;
     list-style: none;
     justify-content: space-between;
-    height: 450px;
+    height: 650px;
+    padding: 0;
 }
 
 .photo3 {
-    display: flex;
     margin-right: 30px;
-    flex-direction: column;
+    width: 400px;
+    display: flex;
     justify-content: space-between;
 }
 
@@ -432,6 +441,8 @@ img.border_photo2 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    width: 400px;
+    object-fit: cover;
 }
 
 .activite2 {
@@ -447,9 +458,46 @@ img.border_photo2 {
 }
 
 img.photo_activite {
-    max-height: 100%;
     max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 23px;
+    border-top-right-radius: 23px;
+}
+
+img.photo_activite2 {
+    max-width: 100%;
+    max-height: 100%;
+    height: 250px;
     object-fit: cover;
     width: 400px;
+    border-top-left-radius: 23px;
+    border-top-right-radius: 23px;
 }
+
+img.photo_activite3 {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    height: 580px;
+    border-top-left-radius: 23px;
+    border-top-right-radius: 23px;
+}
+
+.card_activite {
+    box-shadow: 0 0 7px 0 #cecece;
+    border-top-left-radius: 23px;
+    border-top-right-radius: 23px;
+    border-bottom-left-radius: 23px;
+    border-bottom-right-radius: 23px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.titre_card2 {
+    margin-left: 20px;
+}
+
 
