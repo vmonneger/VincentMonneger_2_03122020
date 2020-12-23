@@ -2,6 +2,10 @@
     padding: 25px 50px;
 }
 
+body {
+    margin: 0;
+}
+
 h1 {
     font-family: 'Raleway', sans-serif;
     font-size: 28px;
@@ -12,9 +16,9 @@ h2 {
     font-size: 22px;
 }
 
-h2 {
+h3 {
     font-family: 'Raleway', sans-serif;
-    font-size: 22px;
+    font-size: 17px;
 }
 
 p {
@@ -285,6 +289,7 @@ input[type=text]:focus {
 .hebergements {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 80px;
 }
 
 .hebergement_ville {
@@ -426,7 +431,8 @@ img.border_photo2 {
     list-style: none;
     justify-content: space-between;
     height: 650px;
-    padding: 0;
+    padding-left: 0;
+    margin-bottom: 80px;
 }
 
 .photo3 {
@@ -479,7 +485,17 @@ img.photo_activite3 {
     max-width: 100%;
     max-height: 100%;
     object-fit: cover;
-    height: 580px;
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 23px;
+    border-top-right-radius: 23px;
+}
+
+img.photo_activite4 {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    height: 200px;
     border-top-left-radius: 23px;
     border-top-right-radius: 23px;
 }
@@ -507,13 +523,15 @@ footer {
     display: flex;
     justify-content: space-between;
     font-family: 'Raleway', sans-serif;
+    padding-left: 50px;
 }
 
 .footer_list {
     list-style: none;
     display: flex;
     flex-direction: column;
-    padding: 0;
+    padding-left: 0;
+    margin-top: 0;
 }
 
 .apropos {
