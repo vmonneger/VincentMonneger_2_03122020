@@ -99,6 +99,10 @@ input[type=text]:focus {
     border: solid 1px #F2F2F2;
 }
 
+::placeholder {
+    color: black;
+}
+
 .rechercher_button {
     background-color: #0065FC;
     border: none;
