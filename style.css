@@ -55,13 +55,13 @@ p {
 
 a.ancre_hebergement:hover {
     border-top: solid 2px #0065FC;
-    padding-top: 52px;
+    padding-top: 39%;
     color: #0065FC;
 }
 
 a.ancre_activite:hover {
     border-top: solid 2px #0065FC;
-    padding-top: 83%;
+    padding-top: 69%;
     color: #0065FC;
 }
 
@@ -136,6 +136,7 @@ input[type=text]:focus {
     display: flex;
     list-style: none;
     flex-wrap: wrap;
+    padding: 0; 
 }
 
 .button_filtre {
