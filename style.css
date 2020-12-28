@@ -579,3 +579,39 @@ footer {
     flex-grow: 2;
     flex-direction: column;
 }
+
+@media screen and (max-width: 425px) {
+    #conteneur {
+        padding: 0 15px;
+    }
+    .top_page {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .hebergements {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .hebergement_photo1 {
+        flex-wrap: wrap;
+    }
+
+    .hebergement_photo2 {
+        flex-wrap: wrap;
+    }
+
+    .activite {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .les_activites {
+        height: 1876px;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+}
