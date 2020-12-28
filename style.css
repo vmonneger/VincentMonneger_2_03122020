@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap");
 
 #conteneur {
-    padding: 25px 50px;
+    padding: 0 50px;
 }
 
 body {
@@ -32,6 +32,7 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 100px;
 }
 
 .logo {
@@ -41,29 +42,36 @@ p {
 
 .nav_bar {
     display: flex;
-    flex: 1;
-    justify-content: flex-end;
+    align-items: center;
 }
 
 .les_ancres {
     display: flex;
     align-content: center;
     list-style: none;
+    padding-left: 0;
+    margin: 0;
 }
 
 .ancre {
-    margin: 0 20px;
+    padding: 39px 20px;
+    border-top: solid 2px transparent;
+}
+
+.ancre2 {
+    padding: 39px 20px;
+}
+
+.ancre:hover {
+    border-top: solid 2px #0065FC;
+    color: #0065FC;
 }
 
 a.ancre_hebergement:hover {
-    border-top: solid 2px #0065FC;
-    padding-top: 39%;
     color: #0065FC;
 }
 
 a.ancre_activite:hover {
-    border-top: solid 2px #0065FC;
-    padding-top: 69%;
     color: #0065FC;
 }
 
@@ -325,6 +333,7 @@ input[type=text]:focus {
     display: flex;
     list-style: none;
     justify-content: flex-start;
+    padding-right: 15px;
 }
 
 .photo1 {
@@ -371,6 +380,14 @@ a:hover {
 
 .description_photo_hebergement {
     margin-left: 15px;
+}
+
+.star_bleu {
+    color: #0065FC;
+}
+
+.star_gris {
+    color: #e6e6e6;
 }
 
 
