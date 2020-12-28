@@ -594,12 +594,24 @@ footer {
         flex-wrap: wrap;
     }
 
+    .hebergement_ville {
+        background-color: transparent;
+        margin: 0;
+    }
+
     .hebergement_photo1 {
         flex-wrap: wrap;
+        padding: 0;
     }
 
     .hebergement_photo2 {
         flex-wrap: wrap;
+        padding: 0;
+    }
+
+    .photo1 {
+        margin-right: 0;
+        width: 100%;
     }
 
     .activite {
@@ -609,6 +621,18 @@ footer {
 
     .les_activites {
         height: 1876px;
+    }
+
+    .photo3 {
+        margin: 0;
+    }
+
+    .photo31 {
+        margin: 0;
+    }
+
+    .border_photo {
+        width: 100%;
     }
 
     footer {
