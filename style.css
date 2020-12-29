@@ -35,6 +35,10 @@ p {
     height: 100px;
 }
 
+.logo_header {
+    flex-grow: 1;
+}
+
 .logo {
     height: auto;
     width: 120px;
@@ -111,6 +115,10 @@ input[type=text]:focus {
 
 ::placeholder {
     color: black;
+}
+
+.fa-search {
+    display: none !important;
 }
 
 .rechercher_button {
@@ -588,12 +596,72 @@ footer {
         padding: 0;
     }
 
-    header {
-        padding: 0 15px;
-    }
     .top_page {
         display: flex;
         flex-wrap: wrap;
+    }
+
+    .logo_header {
+        padding: 0 15px;
+    }
+
+    .nav_bar {
+        order: 2;
+        flex-grow: 2;
+    }
+
+    .les_ancres {
+        flex-grow: 2;
+        justify-content: space-between;
+    }
+
+    .ancre {
+        padding: 0;
+        width: 100%;
+        text-align: center;
+        border-bottom: solid 3px #F2F2F2;
+        padding-bottom: 10px;
+    }
+
+    .ancre:hover {
+        border-top: solid 2px transparent;
+        border-bottom: solid 3px #0065FC;
+        color: #0065FC;
+    }
+
+    .ancre2 {
+        order: 1;
+        padding: 0;
+        padding: 0 15px;
+    }
+
+    .la_recherche {
+        padding: 0 15px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    .rechercher_button {
+        border-bottom-left-radius: 15px;
+        border-top-left-radius: 15px;
+        padding: 16px;
+    }
+
+    .rechercher {
+        display: none;
+    }
+    .fa-search {
+        display: block !important;
+    }
+
+    .les_filtres {
+        padding: 0 15px;
+    }
+
+    .description_top {
+        padding: 0 15px;
     }
 
     /* HEBERGEMENTS */
