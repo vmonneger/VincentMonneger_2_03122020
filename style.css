@@ -647,6 +647,13 @@ footer {
         border-bottom-left-radius: 15px;
         border-top-left-radius: 15px;
         padding: 16px;
+        position: absolute;
+        right: 15px;
+    }
+
+    .input_recherche {
+        flex-grow: 1;
+        margin-right: 10px;
     }
 
     .rechercher {
