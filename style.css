@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap");
 
 #conteneur {
-    padding: 0 50px;
+    padding: 0 40px;
 }
 
 body {
@@ -10,21 +10,27 @@ body {
 
 h1 {
     font-family: 'Raleway', sans-serif;
-    font-size: 28px;
+    font-size: 20px;
 }
 
 h2 {
     font-family: 'Raleway', sans-serif;
-    font-size: 22px;
+    font-size: 17px;
 }
 
 h3 {
     font-family: 'Raleway', sans-serif;
-    font-size: 17px;
+    font-size: 13px;
 }
 
 p {
     font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
+
+a {
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
 }
 
 /* LE TOP PAGE */
@@ -40,8 +46,8 @@ p {
 }
 
 .logo {
-    height: auto;
-    width: 120px;
+    height: 42px;
+    width: 87px;
 }
 
 .nav_bar {
@@ -58,7 +64,7 @@ p {
 }
 
 .ancre {
-    padding: 39px 20px;
+    padding: 40px 20px;
     border-top: solid 2px transparent;
 }
 
@@ -95,14 +101,16 @@ a.inscrire:visited {
 }
 .fa-map-marker-alt {
     background-color: #F2F2F2;
-    padding: 15px;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
+    padding: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 input[type=text] {
     border: solid 1px #F2F2F2;
-    padding: 10px;
+    padding-left: 15px;
     padding-right: 25px;
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
@@ -126,8 +134,8 @@ input[type=text]:focus {
     border: none;
     padding: 10px;
     padding-right: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
     font-family: 'Raleway', sans-serif;
     color: white;
     font-weight: bold;
@@ -142,12 +150,11 @@ input[type=text]:focus {
 
 .les_filtres {
     display: flex;
-    justify-content: flex-start;
     align-items: center;
 }
 
 .titre_filtre {
-
+    margin-right: 25px;
 }
 
 .filtres_button {
@@ -159,134 +166,132 @@ input[type=text]:focus {
 
 .button_filtre {
     display: flex;
+    border-bottom: solid 2px #F2F2F2;
+    border-top: solid 2px #F2F2F2;
+    border-left: 2px solid transparent;
+    border-radius: 40px;
+    border-right: solid 2px #F2F2F2;
+    margin-right: 25px;
+    align-items: center;
 }
 
 .eco_button {
-    border: solid 2px #F2F2F2;
+    border: none;
     background: none;
-    padding: 15px 15px 15px 60px;
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
-    border-radius: 40px;
-    font-size: 15px;
+    font-size: 13px;
     cursor: pointer;
+    padding: 7px;
+    margin: 0;
+    padding-right: 20px;
 }
 
 .fa-money-bill-wave {
     color:#0065FC;
     background-color: #DEEBFF;
-    padding: 15px;
+    padding: 7px;
     border-radius: 50%;
-    position: relative;
-    left: 50px;
     width: 20px;
     height: 20px;
     text-align: center;
     border: solid 2px transparent;
+    box-shadow: 0 0 0 2px #DEEBFF;
     cursor: pointer;
 }
 
-.button_filtre:hover .eco_button {
+.button_filtre:hover {
     border: solid 2px #0065FC;
 }
 .button_filtre:hover .fa-money-bill-wave {
-    border: solid 2px #0065FC;
+    box-shadow: 0 0 0 2px #0065FC;
 }
 
 
 .fam_button {
-    border: solid 2px #F2F2F2;
+    border: none;
     background: none;
-    padding: 15px 15px 15px 60px;
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
-    border-radius: 40px;
-    font-size: 15px;
+    font-size: 13px;
     cursor: pointer;
+    padding: 7px;
+    padding-right: 20px;
 }
 
 .fa-child {
     color:#0065FC;
     background-color: #DEEBFF;
-    padding: 15px;
+    padding: 7px;
     border-radius: 50%;
-    position: relative;
-    left: 45px;
     width: 20px;
     height: 20px;
     text-align: center;
     border: solid 2px transparent;
+    box-shadow: 0 0 0 2px #DEEBFF;
     cursor: pointer;
 }
 
-.button_filtre:hover .fam_button {
-    border: solid 2px #0065FC;
-}
+
 .button_filtre:hover .fa-child {
-    border: solid 2px #0065FC;
+    box-shadow: 0 0 0 2px #0065FC;
 }
 
 .roman_button {
-    border: solid 2px #F2F2F2;
+    border: none;
     background: none;
-    padding: 15px 15px 15px 60px;
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
-    font-size: 15px;
-    border-radius: 40px;
+    font-size: 13px;
     cursor: pointer;
+    padding: 7px;
+    padding-right: 20px;
 }
 
 .fa-heart {
     color:#0065FC;
     background-color: #DEEBFF;
-    padding: 15px;
+    padding: 7px;
     border-radius: 50%;
-    position: relative;
-    left: 50px;
     width: 20px;
     height: 20px;
     text-align: center;
     border: solid 2px transparent;
+    box-shadow: 0 0 0 2px #DEEBFF;
     cursor: pointer;
 }
 
-.button_filtre:hover .roman_button {
-    border: solid 2px #0065FC;
-}
+
 .button_filtre:hover .fa-heart {
-    border: solid 2px #0065FC;
+    box-shadow: 0 0 0 2px #0065FC;
 }
 .anima_button {
-    border: solid 2px #F2F2F2;
+    border: none;
     background: none;
-    padding: 15px 15px 15px 60px;
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
-    border-radius: 40px;
-    font-size: 15px;
+    font-size: 13px;
     cursor: pointer;
+    padding: 7px;
+    padding-right: 20px;
 }
 
 .fa-dog {
     color:#0065FC;
     background-color: #DEEBFF;
-    padding: 15px;
+    padding: 7px;
     border-radius: 50%;
-    position: relative;
-    left: 50px;
     width: 20px;
     height: 20px;
     text-align: center;
     border: solid 2px transparent;
+    box-shadow: 0 0 0 2px #DEEBFF;
     cursor: pointer;
 }
 
-.button_filtre:hover .anima_button {
-    border: solid 2px #0065FC;
-}
+
 .button_filtre:hover .fa-dog {
-    border: solid 2px #0065FC;
+    box-shadow: 0 0 0 2px #0065FC;
 }
 
 .description_top {
@@ -302,11 +307,12 @@ input[type=text]:focus {
     width: 10px;
     height: 10px;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
     margin-right: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 11px;
 }
 
 /* LES HEBERGEMENT */
@@ -348,9 +354,9 @@ input[type=text]:focus {
 }
 
 .photo1 {
-    padding: 5px 5px;
+    padding: 3px 3px;
     background-color:  white;
-    border-radius: 30px;
+    border-radius: 15px;
     margin-bottom: 20px;
     margin-right: 20px;
     box-shadow: 0 0 10px 0 #cecece;
@@ -360,10 +366,10 @@ img.border_photo {
     max-height: 100%;
     max-width: 100%;
     width: 300px;
-    height: 150px;
+    height: 100px;
     object-fit: cover;
-    border-top-left-radius: 23px;
-    border-top-right-radius: 23px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
 }
 
 .plus_hebergement {
@@ -372,9 +378,6 @@ img.border_photo {
 
 /* LES CARDS PHOTO */
 
-a {
-    font-family: 'Raleway', sans-serif;
-}
 a:link {
     text-decoration: none;
     color: black;
@@ -433,9 +436,9 @@ a:hover {
 }
 
 .photo2 {
-    padding: 5px 5px;
+    padding: 3px 3px;
     background-color:  white;
-    border-radius: 30px;
+    border-radius: 15px;
     margin-bottom: 40px;
     box-shadow: 0 0 10px 0 #cecece;
 
@@ -449,10 +452,10 @@ a:hover {
 }
 
 img.border_photo2 {
-    border-top-left-radius: 23px;
-    border-bottom-left-radius: 23px;
-    width: 200px;
-    height: 190px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    width: 120px;
+    height: 130px;
     max-height: 100%;
     max-width: 100%;
     object-fit: cover;
@@ -468,7 +471,7 @@ img.border_photo2 {
     display: flex;
     list-style: none;
     justify-content: space-between;
-    height: 650px;
+    height: 550px;
     padding-left: 0;
     margin-bottom: 80px;
 }
@@ -481,6 +484,14 @@ img.border_photo2 {
 }
 
 .photo31 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 400px;
+    object-fit: cover;
+}
+
+.photo32 {
     margin-right: 30px;
     display: flex;
     flex-direction: column;
@@ -505,8 +516,8 @@ img.photo_activite {
     max-width: 100%;
     max-height: 100%;
     object-fit: cover;
-    border-top-left-radius: 23px;
-    border-top-right-radius: 23px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
 }
 
 img.photo_activite2 {
@@ -515,8 +526,8 @@ img.photo_activite2 {
     height: 250px;
     object-fit: cover;
     width: 400px;
-    border-top-left-radius: 23px;
-    border-top-right-radius: 23px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
 }
 
 img.photo_activite3 {
@@ -525,8 +536,8 @@ img.photo_activite3 {
     object-fit: cover;
     height: 100%;
     width: 100%;
-    border-top-left-radius: 23px;
-    border-top-right-radius: 23px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
 }
 
 img.photo_activite4 {
@@ -534,16 +545,16 @@ img.photo_activite4 {
     max-height: 100%;
     object-fit: cover;
     height: 200px;
-    border-top-left-radius: 23px;
-    border-top-right-radius: 23px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
 }
 
 .card_activite {
     box-shadow: 0 0 7px 0 #cecece;
-    border-top-left-radius: 23px;
-    border-top-right-radius: 23px;
-    border-bottom-left-radius: 23px;
-    border-bottom-right-radius: 23px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -559,9 +570,8 @@ img.photo_activite4 {
 footer {
     background-color: #F2F2F2;
     display: flex;
-    justify-content: space-between;
     font-family: 'Raleway', sans-serif;
-    padding-left: 50px;
+    padding-left: 40px;
 }
 
 .footer_list {
@@ -644,9 +654,9 @@ footer {
     }
 
     .rechercher_button {
-        border-bottom-left-radius: 15px;
-        border-top-left-radius: 15px;
-        padding: 16px;
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
+        padding: 11px;
         position: absolute;
         right: 15px;
     }
@@ -665,6 +675,24 @@ footer {
 
     .les_filtres {
         padding: 0 15px;
+        flex-direction: column;
+        align-items: normal;
+    }
+
+    .filtres_button {
+        margin: 0;
+    }
+
+    .fa-money-bill-wave {
+        
+    }
+
+    .eco_button {
+        
+    }
+
+    .fa-child {
+        
     }
 
     .description_top {
@@ -745,6 +773,10 @@ footer {
     }
 
     .photo31 {
+        margin: 0;
+    }
+
+    .photo32 {
         margin: 0;
     }
 
