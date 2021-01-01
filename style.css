@@ -610,8 +610,47 @@ footer {
     flex-direction: column;
 }
 
+/* LES TABLETTES */
+@media screen and (max-width: 1154px) {
+    .hebergements {
+        flex-wrap: wrap;
+    }
+    .populaires {
+        order: 1;
+        width: 100%;
+        padding-top: 0;
+        margin-left: 0;
+        margin-bottom: 30px;
+    }
+
+    .hebergement_ville {
+        order: 2;
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .photo_populaire {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .photo2 {
+        margin-right: 15px;
+    }
+}
+
+@media screen and (max-width: 1022px) {
+    img.border_photo2 {
+        height: auto;
+    }
+
+    .photo2 {
+        display: flex;
+    }
+}
+
 /* LES MOBILES */
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 866px) {
     /* LE HAUT DE LA PAGE */
     #conteneur {
         padding: 0;
@@ -723,6 +762,7 @@ footer {
 
     .photo1 {
         margin-right: 0;
+        width: 100%;
     }
 
     .hebergement_photo1 {
@@ -756,8 +796,9 @@ footer {
     }
 
     .photo_populaire {
-        padding: 0 15px;
+        padding-left: 15px;
         margin: 0;
+        flex-direction: column;
     }
 
     /* LES ACTIVITES */
@@ -778,18 +819,22 @@ footer {
 
     .photo31 {
         margin: 0;
+        width: 100%;
     }
 
     .photo32 {
         margin: 0;
+        width: 100%;
     }
 
     .photo3 {
         margin: 0;
+        width: 100%;
     }
 
     img.photo_activite2 {
         height: 160px;
+        width: 100%;
     }
 
     img.photo_activite3 {
@@ -810,39 +855,12 @@ footer {
 
     img.border_photo2 {
         width: 47%;
+        height: 130px;
     }
 
     footer {
         flex-direction: column;
 
         padding: 0 15px;
-    }
-}
-
-/* LES TABLETTES */
-@media screen and (max-width: 1024px) {
-    .hebergements {
-        flex-wrap: wrap;
-    }
-    .populaires {
-        order: 1;
-        width: 100%;
-        padding-top: 0;
-        margin-left: 0;
-        margin-bottom: 30px;
-    }
-
-    .hebergement_ville {
-        order: 2;
-        width: 100%;
-        margin-right: 0;
-    }
-
-    .photo_populaire {
-        flex-direction: row;
-    }
-
-    .photo2 {
-        margin-right: 15px;
     }
 }
