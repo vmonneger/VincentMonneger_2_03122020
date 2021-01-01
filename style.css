@@ -610,6 +610,7 @@ footer {
     flex-direction: column;
 }
 
+/* LES MOBILES */
 @media screen and (max-width: 425px) {
     /* LE HAUT DE LA PAGE */
     #conteneur {
@@ -815,5 +816,33 @@ footer {
         flex-direction: column;
 
         padding: 0 15px;
+    }
+}
+
+/* LES TABLETTES */
+@media screen and (max-width: 1024px) {
+    .hebergements {
+        flex-wrap: wrap;
+    }
+    .populaires {
+        order: 1;
+        width: 100%;
+        padding-top: 0;
+        margin-left: 0;
+        margin-bottom: 30px;
+    }
+
+    .hebergement_ville {
+        order: 2;
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .photo_populaire {
+        flex-direction: row;
+    }
+
+    .photo2 {
+        margin-right: 15px;
     }
 }
