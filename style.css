@@ -97,7 +97,6 @@ a.inscrire:visited {
 /* LA RECHERCHE */
 .barre_recherche {
     display: flex;
-    justify-content: flex-start;
 }
 .fa-map-marker-alt {
     background-color: #F2F2F2;
@@ -339,33 +338,26 @@ input[type=text]:focus {
 
 .hebergement_titre {
     display: flex;
-    justify-content: flex-start;
     padding-left: 50px;
 }
 
 .hebergement_photo1 {
     display: flex;
+    flex-wrap: wrap;
     list-style: none;
     justify-content: space-between;
     padding-right: 15px;
     margin: 0;
 }
 
-.hebergement_photo2 {
-    display: flex;
-    list-style: none;
-    justify-content: space-between;
-    padding-right: 15px;
-}
-
 .photo1 {
     padding: 3px 3px;
     background-color:  white;
     border-radius: 15px;
-    margin-bottom: 10px;
+    margin-bottom: 35px;
     margin-right: 25px;
     box-shadow: 0 0 10px 0 #cecece;
-    width: 100%;
+    width: 29%;
 }
 
 img.border_photo {
@@ -620,7 +612,11 @@ footer {
     flex-direction: column;
 }
 
-/* LES TABLETTES */
+.list {
+    margin-bottom: 10px;
+}
+
+/* AGENCEMENT DESKTOP */
 @media screen and (max-width: 1347px) {
     .hebergements {
         flex-wrap: wrap;
@@ -654,17 +650,8 @@ footer {
     }
 }
 
-@media screen and (max-width: 1022px) {
-    img.border_photo2 {
-        height: auto;
-    }
 
-    .photo2 {
-        display: flex;
-    }
-}
-
-/* LES MOBILES */
+/* REAGENCEMENT DESKTOP JUSQU'A TABLETTE */
 @media screen and (max-width: 1130px) {
     /* LE HAUT DE LA PAGE */
     #conteneur {
@@ -778,7 +765,7 @@ footer {
 
     .photo1 {
         margin-right: 0;
-        width: 100%;
+        width: 48%;
     }
 
     .hebergement_photo1 {
@@ -828,7 +815,7 @@ footer {
     }
 
     .les_activites {
-        height: 1440px;
+        height: 1004px;
         padding: 0 15px;
     }
 
@@ -839,17 +826,17 @@ footer {
 
     .photo31 {
         margin: 0;
-        width: 100%;
+        width: 54%;
     }
 
     .photo32 {
         margin: 0;
-        width: 100%;
+        width: 54%;
     }
 
     .photo3 {
         margin: 0;
-        width: 100%;
+        width: 45%;
     }
 
     img.photo_activite2 {
@@ -858,7 +845,7 @@ footer {
     }
 
     img.photo_activite3 {
-        height: 160px;
+        height: 100%;
     }
 
     img.photo_activite4 {
@@ -879,8 +866,39 @@ footer {
     }
 
     footer {
-        flex-direction: column;
-
         padding: 0 15px;
+    }
+}
+
+/* MOBILE */
+@media screen and (max-width: 585px) {
+    /* LES ACTIVITES */
+    .les_activites {
+        height: 1458px;
+    }
+    .photo1 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .photo3 {
+        width: 100%;
+    }
+    
+    .photo32 {
+        width: 100%;
+    }
+
+    .photo31 {
+        width: 100%;
+    }
+
+    img.photo_activite3 {
+        height: 160px;
+    }
+
+    /* FOOTER */
+    footer {
+        flex-direction: column;
     }
 }
